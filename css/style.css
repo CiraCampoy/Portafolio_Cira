@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pontano+Sans:wght@300..700&display=swap');
+
+:root{
+	--color1: #7297be;
+	--color2: #adc1da;
+	--blanco: #fff;
+	--negro: #000;
+	--tipografia1: Montserrat;
+	--tipografia2: Pontano Sans;
+
+
+}
+
+body{
+    font-family: var(--tipografia2);
+    font-size: 20px;
+}
+
+header{
+	background-color: var(--color1);
+	color: var(--blanco);
+	padding: 10px 0;
+}
+
+#hero{
+    padding: 200px 0;
+	background-image: url(../img/heroimg.jpg);
+	background-position: center;
+	background-size: 1500px;
+	color: var(--blanco);
+    
+    }
+
+.titulos{
+    font-size: 60px;
+    font-weight: 700;
+	font-family: var(--tipografia1);
+}
+
+#aboutme{
+	padding: 40px 0;
+}
+
+#aboutme h2{
+	color: var(--color1);
+}
+
+.margtop{
+	margin-top: 10%;
+}
+
+.icon{
+	font-size: 100px;
+	color: var(--blanco);
+}
+
+#servicios{
+	background-color: var(--color1);
+	padding: 40px 0;
+	text-align: center;
+	color: var(--blanco);
+}
+
+#servicios h6{
+	font-size: 25px;
+}
+
+#servicios h2{
+	padding: 2% 0;
+}
+
+#contacto{
+	padding: 6% 0;
+}
+
+#contacto h2{
+	color: var(--color1);
+}
+
+.btn:hover{
+	background-color: var(--color2);
+	color: var(--blanco);
+
+}
+
+.btn{
+	background-color: var(--color1);
+	color: var(--blanco);
+}
+
+.campañas{
+	color: var(--color1);
+}
+
+#portafolio{
+	padding: 6% 0;
+}
+
+#portafolio h2{
+	color: var(--color1);
+	padding-bottom: 3%;
+}
+
+.pad{
+	padding: 1% 0;
+}
+
+footer{
+	background-color: var(--color2);
+	color: var(--blanco);
+	padding: 2% 0;
+	text-align: center;
+}
+
+
